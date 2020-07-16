@@ -1,0 +1,156 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Main styling */
+html,body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+line-height: 1.7em;
+
+}
+a{
+  /* defaul links color  */
+  color: #333333;
+  text-decoration: none;
+}
+h1,h2,h3{
+  padding-bottom: 20px;
+}
+p{
+  margin: 10px 0;
+}
+/* Navbar */
+#navbar{
+  background: #333333;
+  color: #ffffff;
+  overflow: auto;
+  /* here you dont see the links because this is for the links */
+
+}
+#navbar a{
+  color: #ffffff;
+
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  list-style: none;
+  float: right;
+}
+#navbar ul li{
+  float: left;
+  
+}
+#navbar ul li a{
+  display: block;
+  padding:20px;
+  text-align: center;
+}
+#navbar ul li a:hover{
+  background: #444444;
+  color:#f7c08a;
+  
+}
+#navbar ul li a.current{
+  background: #444444;
+  color:#f7c08a;
+  
+}
+/* I want the black bar to go all the way across however
+    navbar should be in the middle
+    To do that we need add container class withing navbar in index.html*/
+    /* check out the Utility classes and this should be on top */
+    /* Utility classes */
+    /* ********************************************** */
+    .container{
+      margin: auto;
+      /* max-width: because we want to make response at that point */
+      max-width: 1100px;
+      overflow: auto;
+      padding: 0 20px;
+    }
+    .text-primary{
+      color: #f7c08a;
+    }
+    .lead{
+      font-size: 20px;
+    }
+    .btn{
+      /* we don't want it to go all the way across like a block.
+        But we also don't want it to be in line. */
+      display: inline-block;
+      font-size: 18px;
+      color: #ffffff;
+      background: #333333;
+      padding:13px 20px;
+      /* because we want to if we have buttons we want to be able to add this to the button as well.
+          And buttons by default have borders links don't but buttons do. */
+      border:none;
+      cursor: pointer;
+    }
+    .btn:hover{
+      color:  #f7c08a;
+    }
+    .btn-light{
+      background: #f4f4f4;
+      color: #333333;
+    }
+    .bg-dark{
+      background: #333333;
+      color: #fff;
+    }
+    .bg-light{
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .bg-primary{
+      background: #333333;
+      color: #f7c08a;
+    }
+    /* ********************************************** */
+
+    /* Showcase */
+    #showcase{
+      background: url('../img/showcase.jpg') no-repeat
+      center center/cover;
+      height: 600px;
+    }
+    #showcase .showcase-content{
+      color: #ffffff;
+      text-align: center;
+      padding: 170px;
+    }
+    #showcase .showcase-content h1{
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+    #showcase .showcase-content p{
+      padding-bottom: 20px;
+      line-height: 1.7;
+    }
+/* Home info */
+#home-info{
+  height: 400px;
+}
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding:50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p{
+  padding-bottom: 30px;
+}
