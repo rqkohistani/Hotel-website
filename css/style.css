@@ -65,6 +65,7 @@ p{
     To do that we need add container class withing navbar in index.html*/
     /* check out the Utility classes and this should be on top */
     /* Utility classes */
+    /* ********************************************** */
     .container{
       margin: auto;
       /* max-width: because we want to make response at that point */
@@ -72,3 +73,107 @@ p{
       overflow: auto;
       padding: 0 20px;
     }
+    .text-primary{
+      color: #f7c08a;
+    }
+    .lead{
+      font-size: 20px;
+    }
+    .btn{
+      /* we don't want it to go all the way across like a block.
+        But we also don't want it to be in line. */
+      display: inline-block;
+      font-size: 18px;
+      color: #ffffff;
+      background: #333333;
+      padding:13px 20px;
+      /* because we want to if we have buttons we want to be able to add this to the button as well.
+          And buttons by default have borders links don't but buttons do. */
+      border:none;
+      cursor: pointer;
+    }
+    .btn:hover{
+      color:  #f7c08a;
+    }
+    .btn-light{
+      background: #f4f4f4;
+      color: #333333;
+    }
+    .bg-dark{
+      background: #333333;
+      color: #fff;
+    }
+    .bg-light{
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .bg-primary{
+      background: #f7c08a;
+      color: #333333;
+    }
+    /* this is to clear the float otherwise it fucks up the below contents */
+    .clr{
+        clear: both;
+    }
+    /* ********************************************** */
+
+    /* Showcase */
+    #showcase{
+      background: url('../img/showcase.jpg') no-repeat
+      center center/cover;
+      height: 600px;
+    }
+    #showcase .showcase-content{
+      color: #ffffff;
+      text-align: center;
+      padding: 170px;
+    }
+    #showcase .showcase-content h1{
+      font-size: 60px;
+      line-height: 1.2em;
+    }
+    #showcase .showcase-content p{
+      padding-bottom: 20px;
+      line-height: 1.7;
+    }
+/* Home info */
+#home-info{
+  height: 400px;
+}
+#home-info .info-img{
+  float: left;
+  width: 50%;
+  background: url('../img/photo-1.jpg') no-repeat;
+  min-height: 100%;
+}
+#home-info .info-content{
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding:50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p{
+  padding-bottom: 30px ;
+}
+/* Features */
+.box{
+  float: left;
+  width: 33.3%;
+  /* since we have border box up in the begining 
+  this padding will not get added to the withd. */
+  padding:50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* footer */
+#main-footer{
+  text-align: center;
+  background: #444444;
+  color: #fff;
+  padding:20px;
+}
