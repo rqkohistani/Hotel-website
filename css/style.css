@@ -109,8 +109,10 @@ p{
     }
 
     .bg-primary{
+
       background: #333333;
       color: #f7c08a;
+
     }
     /* ********************************************** */
 
@@ -152,5 +154,27 @@ p{
   overflow: hidden;
 }
 #home-info .info-content p{
+
   padding-bottom: 30px;
+  padding-bottom: 30px ;
+}
+/* Features */
+.box{
+  float: left;
+  width: 33.3%;
+  /* since we have border box up in the begining 
+  this padding will not get added to the withd. */
+  padding:50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 10px;
+}
+/* footer */
+#main-footer{
+  text-align: center;
+  background: #444444;
+  color: #fff;
+  padding:20px;
+
 }
