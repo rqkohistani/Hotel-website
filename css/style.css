@@ -109,10 +109,12 @@ p{
     }
 
     .bg-primary{
-
       background: #f7c08a;
       color: #333333;
-
+    }
+    /* this is to clear the float otherwise it fucks up the below contents */
+    .clr{
+        clear: both;
     }
     /* ********************************************** */
 
@@ -154,11 +156,7 @@ p{
   overflow: hidden;
 }
 #home-info .info-content p{
-
-
-
-  padding-bottom: 30px;
-
+  padding-bottom: 30px ;
 }
 /* Features */
 .box{
@@ -171,7 +169,6 @@ p{
 }
 .box i {
   margin-bottom: 10px;
-
 }
 /* footer */
 #main-footer{
@@ -179,6 +176,4 @@ p{
   background: #444444;
   color: #fff;
   padding:20px;
-
-
 }
