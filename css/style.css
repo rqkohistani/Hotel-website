@@ -109,8 +109,10 @@ p{
     }
 
     .bg-primary{
+
       background: #f7c08a;
       color: #333333;
+
     }
     /* ********************************************** */
 
@@ -152,7 +154,11 @@ p{
   overflow: hidden;
 }
 #home-info .info-content p{
-  padding-bottom: 30px ;
+
+
+
+  padding-bottom: 30px;
+
 }
 /* Features */
 .box{
@@ -165,4 +171,14 @@ p{
 }
 .box i {
   margin-bottom: 10px;
+
+}
+/* footer */
+#main-footer{
+  text-align: center;
+  background: #444444;
+  color: #fff;
+  padding:20px;
+
+
 }
