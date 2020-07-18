@@ -103,6 +103,7 @@ p{
       background: #333333;
       color: #fff;
     }
+    
     .bg-light{
       background: #f4f4f4;
       color: #333;
@@ -116,6 +117,20 @@ p{
     .clr{
         clear: both;
     }
+    
+    /* padding */
+    /* py y-axis */
+    .py-1{padding:10px 0;}
+    .py-2{padding:20px 0;}
+    .py-3{padding:30px 0;}
+    .py-4{padding:40px 0;}
+
+    .l-heading{
+      font-size: 40px;
+    }
+
+
+
     /* ********************************************** */
 
     /* Showcase */
@@ -170,6 +185,52 @@ p{
 .box i {
   margin-bottom: 10px;
 }
+
+/* abou info */
+#about-info .info-right{
+  float:right;
+  width: 50%;
+  min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+  margin:auto;
+  width: 70%;
+  border-radius: 50%;
+
+}
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+/* Testimonials */
+#testimonials{
+  height: 600px;
+  /* background picture */
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding: 40px;
+
+}
+#testimonials .testimonial{
+  padding:20;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  /* opacity "see through, transparent 0 to 1  */
+  opacity: 0.8;
+}
+#testimonials .testimonial img{
+width: 100px;
+float: left;
+margin-right: 20px;
+border-radius: 50%;
+}
+#testimonials  h2{
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
 /* footer */
 #main-footer{
   text-align: center;
