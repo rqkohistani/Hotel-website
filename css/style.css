@@ -89,8 +89,14 @@ p{
       padding:13px 20px;
       /* because we want to if we have buttons we want to be able to add this to the button as well.
           And buttons by default have borders links don't but buttons do. */
-      border:none;
+     border:none;
       cursor: pointer;
+      margin:auto;
+      
+    }
+    .btn-center{
+      display:block;
+      border-radius: 5px;
     }
     .btn:hover{
       color:  #f7c08a;
@@ -234,6 +240,7 @@ border-radius: 50%;
 #contact-form .form-group{
   font-size: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 #contact-from label{
 display: block;
