@@ -33,7 +33,7 @@ p{
   color: #ffffff;
 
 }
-#navbar h1{
+#navbar .logo{
   float: left;
   padding-top: 20px;
 }
@@ -160,7 +160,7 @@ p{
     }
 /* Home info */
 #home-info{
-  height: 400px;
+  height: 450px;
 }
 #home-info .info-img{
   float: left;

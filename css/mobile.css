@@ -1,0 +1,17 @@
+/* changing for smaller screen less than 768px */
+/* better to split the screen and bring changes comparing the style.css and mobile.css */
+/* for the navbar we compare */
+#navbar .logo{
+  float: none;
+  text-align: center;
+
+}
+/* removing floats in #navbar ul and ul li
+  basically overridding everything on the smaller screens */
+#navbar ul, #navbar ul li{
+  float: none;
+}
+#navbar ul li a{
+  padding:5px;
+  border-bottom: #444 dotted 1px;
+}
