@@ -9,4 +9,5 @@
 1. about
 1. contact-us
 1. final-nonResponsive-update
+1.clone this if willing to work with nonResponsive branch
 ### https://guides.github.com/features/mastering-markdown/
