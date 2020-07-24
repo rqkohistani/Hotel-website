@@ -58,3 +58,12 @@ width: 100%;
   #contact-info .box{
     border-bottom: #444444 dotted 5px;
   }
+  /* Showcase */
+  #showcase{
+    height: 100%;
+  }
+  #showcase .showcase-content{
+    /* removing some padding in showcase */
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
