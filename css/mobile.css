@@ -30,3 +30,22 @@
   width: 100%;
 
 }
+/* about page */
+
+#about-info .info-right,
+#about-info .info-left{
+float: none;
+width: 100%;
+}
+/* the image to close to the about hotel bt content 
+  need to give some margin  */
+  #about-info .info-right{
+    margin-top:30px ;
+  }
+
+.l-heading{
+  /* heading to the center */
+  text-align: center;
+}
+/* testimonials */
+/* just change the height from 600px to to 100% that is it */
