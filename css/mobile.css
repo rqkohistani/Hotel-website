@@ -49,3 +49,12 @@ width: 100%;
 }
 /* testimonials */
 /* just change the height from 600px to to 100% that is it */
+
+
+/* contact page */
+/* since we use some format for contact page so everything fine 
+  however, we need to just add some border . */
+  /* target contact-info box inside */
+  #contact-info .box{
+    border-bottom: #444444 dotted 5px;
+  }
